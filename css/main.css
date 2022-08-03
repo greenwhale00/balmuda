@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100; 0,200; 0,300; 0,400; 0,500; 0,600; 0,700; 0,800; 0,900; 1,100; 1,200; 1,300; 1,400; 1,500; 1,600; 1,700; 1,800; 1,900&display=swap');
+
 * { font-family: 'Montserrat', sans-serif;
- outline: .0625rem dashed #33ff33; } 
+ /* outline: .0625rem dashed #33ff33; */ } 
 
 .container { display: flex; width: 1200px; margin: 0 auto; } 
 
@@ -15,12 +16,15 @@
 .main_visual .main_slider .itm02 { background: url(../img/main_slide03_.png) no-repeat center center/cover; } 
 .main_visual .main_slider .itm03 { background: url(../img/main_slider04_.jpg) no-repeat bottom center/cover; } 
 .main_visual .main_slider .itm04 { background: url(../img/main_slide05_.png) no-repeat center center/cover; } 
-.main_visual .main_slider .inner { position: absolute; inset: 50% auto auto 50%; transform: translate(-50%, -50%); color: #fff; text-shadow: 0 0 3px #000; } 
-.main_visual .main_slider .inner h2 { font-size: 40px; font-weight: 700; margin: 0 0 10px 0; } 
-.main_visual .main_slider .inner p { font-size: 15px; font-weight: 300; margin: 0 0 10px 0; } 
-.main_visual .main_slider .inner a { display: inline-block; padding: 5px 20px; background: #333; } 
+
+.main_visual .main_slider .inner { position: absolute; inset: 20% auto auto 50%; transform: translate(-50%, -50%); color: #fff; text-align: center; } 
+
+.main_visual .main_slider .inner h2 { font-size: 80px; font-weight: 700; margin: 0 0 15px 0; } 
+.main_visual .main_slider .inner p { font-size: 40px; font-weight: 500; margin: 0 0 30px 0; } 
+.main_visual .main_slider .inner a { display: inline-block; padding: 10px 40px; background: transparent; border: 1px solid #333;} 
 
 .main_visual .main_slider .slick-dots { position: absolute; inset: auto auto 50px 50%; transform: translateX(-50%); } 
 .main_visual .main_slider .slick-dots li { display: inline-block; } 
 .main_visual .main_slider .slick-dots button { outline: none; border: 1px solid #666; border-radius: 50px; width: 15px; height: 15px; margin: 0 10px; font-size: 0; background-color: transparent; cursor: pointer; } 
 .main_visual .main_slider .slick-dots li.slick-active button { background: #666; } 
+

@@ -38,6 +38,23 @@ $(function () {
     });
 
 
+
+    $('.recipe_slider').slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        speed: 100,
+        arrows: false,
+        dots: true,
+        autoplay: false,
+
+        vertical: false,
+
+
+        draggable: true,   //드래그 가능 여부 
+        centerMode: true,
+    });
+
 })
 
 

@@ -2,10 +2,11 @@ $(function () {
 
     $('.main_slider').slick({
         arrows: false,
-        autoplay: false,
+        autoplay: true,
         dots: true,
         pauseOnHover: false,
         pauseOnFocus: false,
+
     });
 
     $('.mainArrow i:nth-child(1)').on('click', function () {
@@ -26,30 +27,19 @@ $(function () {
     });
 
 
-    $('.mbtn').on('click', function () {
-        $('.gnb').toggleClass('on')
-    });
-
-
-
-    $(window).on('resize', function () {
-        $('.gnb').removeClass('on');
-        $('.smenu').removeAttr('style')
-    });
-
 
 
     $('.recipe_slider').slick({
         infinite: true,
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1,
-        speed: 100,
+        //speed: 100,
         arrows: false,
         dots: true,
-        autoplay: false,
-
+        autoplay: true,
+        // centerPadding: '5px',
         vertical: false,
-
+        pauseOnHover: false,
 
         draggable: true,   //드래그 가능 여부 
         centerMode: true,

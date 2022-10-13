@@ -27,20 +27,18 @@ $(function () {
     });
 
 
-
-
     $('.recipe_slider').slick({
         infinite: true,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         //speed: 100,
-        arrows: false,
+        //arrows: true,
         dots: true,
         autoplay: true,
         // centerPadding: '5px',
         vertical: false,
         pauseOnHover: false,
-
+        focusOnSelect: true,
         draggable: true,   //드래그 가능 여부 
         centerMode: true,
     });

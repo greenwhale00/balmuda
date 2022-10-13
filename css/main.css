@@ -3,6 +3,7 @@
 * {
     font-family: 'Montserrat', sans-serif;
     outline: 1px dashed #33ff33;
+    word-break: keep-all;
 }
 
 .container {
@@ -407,7 +408,7 @@
 
 .txt h2 {
     font-size: 31px;
-    font-weight: 400;
+    font-weight: 700;
     margin: 0 0 50px 0;
 }
 
@@ -461,25 +462,24 @@
 }
 
 
-
-
-.video {
-    margin: 0 auto;
-    width: 1200px;
-}
-
-.video video {
-    margin: 0 0 100px 0;
-    width: 1200px;
-}
-
-
 .recipe {
-    margin: 0 0 10px 0;
+    margin: 0 0 100px 0;
+}
+
+.recipe .text {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.recipe .text h2 {
+    font-size: 31px;
+    font-weight: 700;
 }
 
 .recipe figure {
     position: relative;
+    cursor: pointer;
 }
 
 .recipe .slick-dots {
@@ -494,10 +494,10 @@
 
 .recipe .slick-dots button {
     outline: none;
-    border: 1px solid #1e2023;
-    border-radius: 50px;
-    width: 15px;
-    height: 15px;
+    border: 1px solid #282828;
+    /* border-radius: 50px; */
+    width: 10px;
+    height: 10px;
     margin: 0 10px;
     font-size: 0;
     background-color: transparent;
@@ -505,79 +505,31 @@
 }
 
 .recipe .slick-dots li.slick-active button {
-    background: #1e2023;
+    background: #282828;
 }
 
-.recipe .text {
-    width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.recipe .text h2 {
-    font-size: 31px;
-    font-weight: 500;
-}
-
-.recipe .text figure {
-    padding: 35px 0 0 0;
-}
-
-.recipe .text a {
+.recipe .btn {
     display: block;
-    width: 200px;
-    margin: 0 auto 0 auto;
-    border-radius: 10px;
-    padding: 15px 30px;
-    border: 1px solid #181818;
-}
-
-
-
-
-.recipe .slick-dots li {
-    display: inline-block;
-}
-
-.recipe .slick-dots button {
-    outline: none;
-    border: 1px solid #1e2023;
-    border-radius: 50px;
-    width: 15px;
-    height: 15px;
-    margin: 0 10px;
-    font-size: 0;
-    background-color: transparent;
-    cursor: pointer;
-}
-
-.recipe .slick-dots li.slick-active button {
-    background: #1e2023;
-}
-
-.recipe .text {
-    width: 1200px;
-    margin: 0 auto;
     text-align: center;
-}
-
-.recipe .text h2 {
-    font-size: 31px;
-    font-weight: 500;
-}
-
-.recipe .text figure {
-    padding: 35px 0 0 0;
-}
-
-.recipe .text a {
-    display: block;
     width: 200px;
-    margin: 0 auto 0 auto;
-    border-radius: 10px;
+    margin: 0 auto;
     padding: 15px 30px;
-    border: 1px solid #181818;
+    border: 1px solid #282828;
+    transition: 0.3s;
 }
+
+.recipe .btn:hover {
+    background: #282828;
+    color: #f7f7f7;
+}
+
+
+
+
+
+
+
+
 
 .deco .container figure {
     display: flex;
@@ -591,13 +543,29 @@
     text-align: center;
 }
 
-.deco .input_row {
-    outline: none;
+.deco .container .letter strong {
+    display: block;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+}
+
+.deco .container .letter p {
+    display: block;
+    font-size: 15px;
+    margin: 0 0 35px 0;
 }
 
 
+.deco .input_row {
+    border-style: none;
+    border-bottom: 1px solid #999;
+}
 
 
+.deco .input_row button {
+    border-style: none;
+}
 
 
 .footer {
@@ -684,9 +652,4 @@
 
 .copy {
     font-size: 11px;
-}
-
-
-* {
-    word-break: keep-all;
 }

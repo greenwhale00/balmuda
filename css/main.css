@@ -2,8 +2,9 @@
 
 * {
     font-family: 'Montserrat', sans-serif;
-    outline: 1px dashed #33ff33;
+    /* outline: 1px dashed #33ff33; */
     word-break: keep-all;
+
 }
 
 .container {

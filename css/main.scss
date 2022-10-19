@@ -311,7 +311,7 @@
         text-align: center;
         height: 350px;
         background: url(../img/news11.jpg) no-repeat center center/cover;
-        // filter: brightness(0.6);
+        filter: brightness(0.6);
         backdrop-filter: blur;
 
         .inner {
@@ -319,6 +319,29 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+
+            strong {
+                display: block;
+                font-size: 25px;
+                font-weight: 500;
+                margin: 0 0 15px 0;
+            }
+
+            p {
+                display: block;
+                font-size: 15px;
+                line-height: 20px;
+                margin: 0 0 35px 0;
+            }
+
+            .input {
+                .input_row {
+                    border-style: none;
+                    border-bottom: 1px solid #999;
+                }
+
+            }
+
         }
     }
 }

@@ -45,6 +45,63 @@
     }
 }
 
+.main_visual {
+
+    position: relative;
+    margin: 0 0 100px 0;
+
+    figure {
+        position: relative;
+        height: 900px;
+    }
+
+    .itm02 {
+        background: url(../img/main_slide01.png) no-repeat bottom center/cover;
+    }
+
+    .itm03 {
+        background: url(../img/main_slide03_.png) no-repeat center center/cover;
+    }
+
+    .itm04 {
+        background: url(../img/main_slider04_.png) no-repeat bottom center/cover;
+    }
+
+    .itm05 {
+        background: url(../img/main_slide05_.png) no-repeat center center/cover;
+    }
+
+    .inner {
+        position: absolute;
+        inset: 20% auto auto 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        text-align: center;
+
+        h2 {
+            font-size: 80px;
+            font-weight: 700;
+            margin: 0 0 15px 0;
+        }
+
+        p {
+            font-size: 40px;
+            font-weight: 500;
+            margin: 0 0 30px 0;
+        }
+    }
+
+
+}
+
+
+.newsletter {
+    figure {
+        height: 500px;
+    }
+}
+
+
 
 .footer {
     background-color: #1e2023;

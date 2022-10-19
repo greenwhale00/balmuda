@@ -306,7 +306,20 @@
 
 .newsletter {
     figure {
-        height: 500px;
+        position: relative;
+        color: azure;
+        text-align: center;
+        height: 350px;
+        background: url(../img/news11.jpg) no-repeat center center/cover;
+        // filter: brightness(0.6);
+        backdrop-filter: blur;
+
+        .inner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
     }
 }
 

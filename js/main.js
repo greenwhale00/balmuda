@@ -50,4 +50,10 @@ $(function () {
         $('.recipe_slider').slick('slickNext')
     });
 
+    function mopen() {
+        $(this).toggleClass('on');
+        $('.gnb').toggleClass('on');
+    }
+    $('.mopen').on('click', mopen)
+
 })

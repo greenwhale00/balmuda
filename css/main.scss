@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * { font-family: "Poppins", sans-serif; word-break: keep-all; }
-* { outline: 1px dashed lime; }
+// * { outline: 1px dashed lime; }
 .inner { width: 1200px; margin: 0 auto; }
 .container { width: 1200px; margin: 0 auto; display: flex; }
 .header {
@@ -60,20 +60,14 @@
         .inn { display: flex; }
         .left {
             display: flex; background: #f5f5f5; flex: 2;
-
             img { display: block; width: 500px; bottom: 0; right: 0; }
         }
         .right {
             img { display: block; width: 230px; }
             .cleaner { background: #f5f5f5; margin-bottom: 30px; }
-            .air {
-                background: #f5f5f5;
-
-                img {
-}
-}
-}
-}
+            .air { background: #f5f5f5; }
+        }
+    }
 }
 .popular {
     background: #f5f5f5; text-align: center; color: #1e2023; margin-bottom: 100px; padding-bottom: 100px;
@@ -114,9 +108,13 @@
     p { font-size: 15px; line-height: 20px; }
 }
 .recipe {
-    position: relative; 
-margin: 0 0 100px 0;
-    figure { position: relative; cursor: pointer; }
+    position: relative; margin: 0 0 100px 0; text-align: center;
+
+    .recipe_slider {
+        margin-bottom: 50px;
+
+        figure { position: relative; cursor: pointer; }
+    }
     .arrows {
         cursor: pointer;
 
@@ -125,15 +123,13 @@ margin: 0 0 100px 0;
         i:nth-child(1) { margin: 0 0 0 -800px; }
         i:nth-child(2) { margin: 0 0 0 800px; }
     }
-}
-
-.btn {
-    
+    .btn { display: inline-block; text-align: center; border: 1px solid #1e2023; padding: 15px 50px; border-radius: 22px; transition: 0.4s; font-size: 15px; text-align: center;}
+    .btn:hover {background-color: #1e2023; color: azure;}
 }
 
 .newsletter {
     figure {
-        position: relative; color: azure; text-align: center; height: 350px; background: url(../img/news11.jpg) no-repeat center center/cover; filter: brightness(0.6); backdrop-filter: blur;
+        position: relative; color: azure; text-align: center; height: 350px; background: url(../img/news11.jpg) no-repeat center center/cover; 
 
         .inner {
             position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);

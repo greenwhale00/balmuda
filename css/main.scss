@@ -130,7 +130,7 @@
 .newsletter {
 
     figure {
-        position: relative; color: #f7f8f9; text-align: center; height: 350px;
+        position: relative; color: azure; text-align: center; height: 350px;
 
         .inner {
             position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
@@ -141,8 +141,8 @@
                 .input_row { border: none; outline: none; background-color: transparent; border-bottom: 2px solid #fff; }
             }
             button {
-                display: inline-block; border: 1px solid #1e2023; padding: 10px 20px; border-radius: 22px; transition: 0.4s; font-size: 15px; text-align: center; background: transparent ; // border: 0; outline: 0; background-color: transparent;
-                i { font-size: 20px; }
+                display: inline-block; margin-left: 15px; border: 1px solid azure; padding: 10px 15px; border-radius: 22px; transition: 0.4s; font-size: 15px; text-align: center; background: transparent ; // border: 0; outline: 0; background-color: transparent;
+                i { font-size: 20px; color: #666; }
             }
         }
     }

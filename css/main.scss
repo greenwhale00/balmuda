@@ -128,10 +128,9 @@
 }
 
 .newsletter {
-    background: url(../img/news11.jpg) no-repeat center center/cover; filter: opacity(0.78);
 
     figure {
-        position: relative; color: #fff; text-align: center; height: 350px;
+        position: relative; color: #f7f8f9; text-align: center; height: 350px;
 
         .inner {
             position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
@@ -147,7 +146,10 @@
             }
         }
     }
+    figure::before { content: ""; position: absolute; background: url(../img/news11.jpg) no-repeat center center/cover; filter: brightness(0.4); top: 0; left: 0; right: 0; bottom: 0; }
 }
+
+
 .footer {
     background-color: #1e2023; color: azure;
 

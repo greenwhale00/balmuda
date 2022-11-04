@@ -195,31 +195,43 @@
     }
 }
 
-// 
+
+
+
+
+
+
+
+
+
+//==================================== 반응형 ============================================================//
 
 @media (max-width: 768px) {
     .header {
         background: #1e2023; line-height: 70px; color: azure;
     
         .container {
-            justify-content: space-between;
-    
-            h1 { width: 200px; }
+            justify-content: space-between; h1 { width: 200px; }
+
             .gnb {
                 ul { display: flex; gap: 30px; font-size: 17px; font-weight: 600; }
             }
         }
         .mopen { display: none; }
     }
+
     .main_visual {
         position: relative; margin: 0 0 100px 0;
     
         .main_slider {
+
             figure { position: relative; height: 810px; }
+
             .itm02 { background: url(../img/main_slide01.png) no-repeat bottom center/cover; }
             .itm03 { background: url(../img/main_slide03_.png) no-repeat center center/cover; }
             .itm04 { background: url(../img/main_slider04_.png) no-repeat bottom center/cover; }
             .itm05 { background: url(../img/main_slide05_.png) no-repeat center center/cover; }
+
             .inner {
                 position: absolute; inset: 20% auto auto 50%; transform: translate(-50%, -50%); color: #fff; text-align: center;
     
@@ -227,6 +239,7 @@
                 p { font-size: 40px; font-weight: 600; margin: 0 0 30px 0; }
                 a { display: inline-block; padding: 10px 40px; background: transparent; border: 1px solid #333; }
             }
+
             .slick-dots {
                 position: absolute; inset: auto auto 50px 50%; transform: translateX(-50%);
     
@@ -261,18 +274,21 @@
             }
         }
     }
-    .popular {
-        background: #f5f5f5; text-align: center; color: #1e2023; margin-bottom: 100px; padding-bottom: 100px;
-    
-        h2 { padding: 100px 0 50px 0; font-size: 31px; font-weight: 700; }
-        figure {
-            width: 400px;
-    
-            h3 { margin: 0 0 10px 0; font-size: 17px; font-weight: 700; }
-            p { font-size: 15px; font-weight: 500; }
-        }
-        .item { width: 1690px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-gap: 30px; grid-auto-rows: minmax(100px, auto); }
+
+   .popular {
+    background: #f5f5f5; text-align: center; color: #1e2023; margin-bottom: 100px; padding-bottom: 100px;
+
+    h2 { padding: 100px 0 50px 0; font-size: 31px; font-weight: 700; }
+    figure {
+
+        width: 400px;
+
+        h3 { margin: 0 0 10px 0; font-size: 17px; font-weight: 700; }
+        p { font-size: 15px; font-weight: 500; }
     }
+    .item { width: 1690px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-gap: 30px; grid-auto-rows: minmax(100px, auto); }
+}
+
     .intro {
         color: #1e2023;
     

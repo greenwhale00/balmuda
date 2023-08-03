@@ -41,6 +41,22 @@ $(function () {
         focusOnSelect: false,
         draggable: true,   //드래그 가능 여부 
         centerMode: true,
+        responsive: [ // 반응형 웹 구현 옵션
+            {
+                breakpoint: 960, //화면 사이즈 960px
+                settings: {
+                    //위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 768, //화면 사이즈 768px
+                settings: {
+                    //위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
+                    slidesToShow: 2
+                }
+            }
+        ]
     });
 
     $('.arrows i:nth-child(1)').on('click', function () {

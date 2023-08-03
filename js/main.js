@@ -3,7 +3,7 @@ $(function () {
     $('.main_slider').slick({
         arrows: false,
         autoplay: true,
-        dots: true,
+        dots: false,
         pauseOnHover: false,
         pauseOnFocus: false,
 
@@ -34,7 +34,7 @@ $(function () {
         //speed: 100,
         arrows: false,
         dots: false,
-        autoplay: true,
+        autoplay: false,
         // centerPadding: '5px',
         vertical: false,
         pauseOnHover: false,

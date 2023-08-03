@@ -729,6 +729,7 @@
 
   .intro .inner .news_img {
     display: flex;
+    flex-direction: column;
     gap: 30px;
   }
 

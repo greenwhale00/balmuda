@@ -804,31 +804,10 @@
   }
 
   .recipe .arrows {
-    cursor: pointer;
+    display: none;
+
   }
 
-  .recipe .arrows i {
-    position: absolute;
-    inset: 50% auto auto 50%;
-    transform: translate(-50%, -50%);
-    font-size: 30px;
-    color: #fff;
-    background-color: #1e2023;
-    opacity: 0.35;
-    border-radius: 50%;
-  }
-
-  .recipe .arrows i:hover {
-    opacity: 0.7;
-  }
-
-  .recipe .arrows i:nth-child(1) {
-    margin: 0 0 0 -100px;
-  }
-
-  .recipe .arrows i:nth-child(2) {
-    margin: 0 0 0 100px;
-  }
 
   .recipe .btn {
     display: inline-block;

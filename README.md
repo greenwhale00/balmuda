@@ -8,7 +8,7 @@ This project involved redesigning the Balmuda website to improve web design and 
 
 - Redesign of homepage 
 - Addition of user-friendly interactive elements
-- Implementation of responsive design for better mobile experience
+
 
 ## Technologies Used
 
